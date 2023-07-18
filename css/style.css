@@ -70,3 +70,70 @@ span{
     font-weight: 700;
 }
 /* navbar ends here */
+
+.gamer-img{
+    width: 400px;
+}
+.gamer-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid peru; */
+    color: black;
+    background-image: url("./images/pink-color.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+}
+.title-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    margin-top: -40px;
+}
+.description{
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.fa-regular{
+    margin: 5px;
+}
+.description1{
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.fa-solid{
+    margin: 5px;
+}
+.description2{
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.btn{
+    border-radius: 48px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+}
