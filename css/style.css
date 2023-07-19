@@ -140,18 +140,22 @@ span{
 }
 /* banner ends here */
 
+/* about starts here */
 .about-section-img{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     /* flex-direction: row-reverse; */
     padding: 10px;
-    width: 80%;
+    max-width: 1050px;
     margin: 0 auto;
 }
 .about-img{
     width: 500px;
-
+}
+.about-text{
+    text-align: end;
 }
 .about-title{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -160,3 +164,122 @@ span{
     -webkit-text-fill-color: transparent;
     
 }
+.des{
+    color: #534C64;
+}
+.des1{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+/* about ends here */
+
+/* online game starts here */
+.game-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.game-description{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.game-product{
+    display: flex;
+    gap: 10px;
+    border-radius: 16px;
+    
+}
+.game-img{
+    width: 100%;
+}
+.game-product{
+    width: 90%;
+    margin: 0 auto;
+}
+.botton-tex{
+    color: #534C64;
+    
+}
+/* online game ends here */
+
+/* product image starts here */
+.product-image-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1130px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.product-image-content {
+    text-align: end;
+    padding-right: 140px;
+}
+
+img.product-img {
+    max-width: 630px;
+}
+
+.product-photo {
+    position: relative;
+}
+
+img.product-img-two {
+    position: absolute;
+    bottom: -50px;
+    left: -130px;
+}
+
+/* artist starts here */
+.artist-section-wrap {
+    max-width: 109px;
+    width: 100%;
+    margin: auto;
+}
+
+section.artist-section {
+    padding: 70px 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.artist-section-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.artist-section-top-item {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.artist-section-top-item .title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 10px;
+}
+/* artist end here */
