@@ -222,7 +222,7 @@ span{
 }
 /* online game ends here */
 
-/* product image style here */
+/*double carton product image style here */
 .product-image-container{
     align-items: center;
     display: flex;
@@ -260,6 +260,7 @@ span{
 .product-image-content-2{
     text-align: right;
     padding-right: 240px;
+    
    
 }
 .product-title-2{
@@ -363,38 +364,48 @@ section.artist-section {
 }
 
 /* footer style here */
+.social-links a{
+    font-size: 30px;
+    color: white;
+    padding-left: 40px;
+}
+
+.footer1{
+    color: white;
+}
+.primay-tream{
+    margin-top: 40px;
+}
+.primay-tream a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+   
+}
+.footer-area{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.footer-area a{
+   padding-left: 40px;
+   text-decoration: none;
+}
+
 .footer-color{
     background: #111010;
     padding: 50px;
     color: white;
-}
-.footer-title{
-    color: #E55473;
-    font-family: Lato;
     text-align: center;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
 }
-.footer-title span{
-    color: #FFFFFF;
-}
-.footer-discription{
-    color: rgba(255, 255, 255, 0.90);
-    text-align: center;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-}
+
 .receive{
-    color: rgba(255, 255, 255, 0.40);
+    color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
 }
