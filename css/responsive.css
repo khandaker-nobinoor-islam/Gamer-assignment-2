@@ -1,0 +1,17 @@
+@media screen and (max-width:576px) {
+    .naver-container, .gamer-container, .about-section-img, .game-product, .product-image-container, .artist-section-top, .careers-section-warp{
+        flex-direction: column;
+    }
+    .naver-container{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    .naver-containe, .gamer-container{
+        flex-direction: column;
+    }
+    .footer-res{
+        padding: 30px;
+    }
+}

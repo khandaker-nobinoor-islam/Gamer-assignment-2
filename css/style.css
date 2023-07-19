@@ -209,6 +209,11 @@ span{
     border-radius: 16px;
     
 }
+.imgs :hover{
+    background: #F61C0D;
+    padding: 2px; 
+    border-radius: 5px; 
+}
 .game-img{
     width: 100%;
 }
@@ -313,18 +318,12 @@ section.artist-section {
     padding: 50px 140px;
 }
 .careers-section-warp{
-    
     display: flex;
     
 }
-.careers-container{
-    
-}
+
 .careers-content-top{
     display: flex;
-}
-.careers-top{
-    
 }
 .careers-des{
     color: #FFF;
@@ -393,6 +392,7 @@ section.artist-section {
 .footer-area a{
    padding-left: 40px;
    text-decoration: none;
+   color: white;
 }
 
 .footer-color{
