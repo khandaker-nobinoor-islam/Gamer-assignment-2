@@ -223,7 +223,24 @@ span{
 }
 .botton-tex{
     color: #534C64;
-    
+}
+
+.imgage-content{
+    width: 100%;
+    height: 100%;
+    color: #F61C0D;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgb(0, 0, 0,0.6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.imgage-content:hover{
+    opacity: 1;
 }
 /* online game ends here */
 
@@ -269,7 +286,9 @@ span{
    
 }
 .product-title-2{
-    text-align: end;
+    text-align: right;
+    max-width: -300px;
+    display: flex;
 }
 .product-description-2{
     text-align: end;
@@ -279,40 +298,47 @@ span{
     line-height: 30px; 
 }
 
-
 /* artist style here */
-.artist-section-wrap {
-    max-width: 109px;
-    width: 100%;
-    margin: auto;
-}
-
-section.artist-section {
-    padding: 70px 0;
-    margin-top: 40px;
+.artist-section {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: space-around;
+    margin-top: 50px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-}
-
-.artist-section-top {
+  }
+  .artist-section-top-item {
     display: flex;
     align-items: center;
+    padding: 10px 22px;
+    cursor: pointer;
     justify-content: center;
-    margin-bottom: 30px;
-}
-
-.artist-section-top-item {
-    display: flex;
-    align-items: center;
-    margin-right: 40px;
-}
-
-.artist-section-top-item .title {
-    font-size: 18px;
+    background-color: #ffff;
+    border-radius: 50px;
+  }
+  .artist-section-top-item img {
+    width: 37px;
+    height: auto;
+    margin-right: 12px;
+  }
+  .artist-section-top-item p {
+    color: #0b0223;
+    font-size: 13px;
     font-weight: 600;
-    margin: 0;
-    margin-left: 10px;
-}
+  }
+  .artist-section-top-item:hover {
+    border: 1px solid red;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+  .artist-section-top-item p:hover {
+    color: red;
+  }
 /* artist end here */
+
+/* careers start here */
 .careers-container-section{
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     padding: 50px 140px;

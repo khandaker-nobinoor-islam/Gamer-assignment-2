@@ -3,7 +3,31 @@
         flex-direction: column;
     }
     .naver-container{
-        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .game-product .imgs .game-img{
+        padding: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .gamer-container .gamer-text{
+        gap: 10px;
+        padding: 20px 46px;
+    }
+    .product-photo .product-img{
+        padding: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .artist-section .artist-section-top-item{
+        padding: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .careers-container-section .careers-photo .careers-img{
+        width: 500px;
+        padding-bottom: 10px;
+        margin: 0 auto;
     }
 }
 
@@ -13,5 +37,20 @@
     }
     .footer-res{
         padding: 30px;
+    }
+    .product-photo .product-img{
+        padding: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .artist-section .artist-section-top-item{
+        padding: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .game-product .imgs .game-img{
+        padding: 20px;
+        width: 100%;
+        height: auto;
     }
 }
